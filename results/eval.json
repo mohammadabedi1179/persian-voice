@@ -1,0 +1,613 @@
+{
+  "stt": {
+    "fa-turbo": {
+      "model": "MohammadGholizadeh/whisper-large-v3-turbo-persian",
+      "load_seconds": 3.1,
+      "long_clips": [
+        {
+          "clip": "stt_01.wav",
+          "audio_seconds": 43.04,
+          "seconds": 1.9,
+          "rtf": 0.044,
+          "wer": 0.0333,
+          "cer": 0.0037,
+          "cer_nospace": 0.0
+        },
+        {
+          "clip": "stt_02.wav",
+          "audio_seconds": 51.72,
+          "seconds": 1.8,
+          "rtf": 0.035,
+          "wer": 0.0759,
+          "cer": 0.0217,
+          "cer_nospace": 0.0268
+        },
+        {
+          "clip": "stt_03.wav",
+          "audio_seconds": 40.76,
+          "seconds": 1.48,
+          "rtf": 0.036,
+          "wer": 0.0282,
+          "cer": 0.0108,
+          "cer_nospace": 0.0133
+        }
+      ],
+      "corpus": {
+        "utterances": 300,
+        "audio_minutes": 78.2,
+        "rtf": 0.044,
+        "wer": 0.0888,
+        "cer": 0.0283,
+        "cer_nospace": 0.0278
+      },
+      "peak_vram_gb": 2.11
+    },
+    "base-turbo": {
+      "model": "openai/whisper-large-v3-turbo",
+      "load_seconds": 1.9,
+      "long_clips": [
+        {
+          "clip": "stt_01.wav",
+          "audio_seconds": 43.04,
+          "seconds": 1.27,
+          "rtf": 0.03,
+          "wer": 0.1833,
+          "cer": 0.0412,
+          "cer_nospace": 0.0385
+        },
+        {
+          "clip": "stt_02.wav",
+          "audio_seconds": 51.72,
+          "seconds": 1.82,
+          "rtf": 0.035,
+          "wer": 0.1646,
+          "cer": 0.0435,
+          "cer_nospace": 0.0506
+        },
+        {
+          "clip": "stt_03.wav",
+          "audio_seconds": 40.76,
+          "seconds": 1.54,
+          "rtf": 0.038,
+          "wer": 0.0563,
+          "cer": 0.0189,
+          "cer_nospace": 0.0233
+        }
+      ],
+      "corpus": {
+        "utterances": 300,
+        "audio_minutes": 78.2,
+        "rtf": 0.044,
+        "wer": 0.1796,
+        "cer": 0.0543,
+        "cer_nospace": 0.057
+      },
+      "peak_vram_gb": 2.11
+    }
+  },
+  "tts": {
+    "model": "parsvoice-xtts",
+    "takes": 1,
+    "rows": [
+      {
+        "voice": "voice_01.wav",
+        "paragraph": 1,
+        "audio_seconds": 16.62,
+        "seconds": 18.34,
+        "rtf": 1.103,
+        "similarity": 0.7128,
+        "roundtrip": {
+          "wer": 0.1143,
+          "cer": 0.0514,
+          "cer_nospace": 0.0567
+        }
+      },
+      {
+        "voice": "voice_01.wav",
+        "paragraph": 2,
+        "audio_seconds": 14.61,
+        "seconds": 16.69,
+        "rtf": 1.142,
+        "similarity": 0.697,
+        "roundtrip": {
+          "wer": 0.069,
+          "cer": 0.0274,
+          "cer_nospace": 0.0254
+        }
+      },
+      {
+        "voice": "voice_01.wav",
+        "paragraph": 3,
+        "audio_seconds": 15.77,
+        "seconds": 18.46,
+        "rtf": 1.17,
+        "similarity": 0.7052,
+        "roundtrip": {
+          "wer": 0.125,
+          "cer": 0.037,
+          "cer_nospace": 0.0357
+        }
+      },
+      {
+        "voice": "voice_02.wav",
+        "paragraph": 1,
+        "audio_seconds": 16.37,
+        "seconds": 17.17,
+        "rtf": 1.049,
+        "similarity": 0.7335,
+        "roundtrip": {
+          "wer": 0.1714,
+          "cer": 0.0571,
+          "cer_nospace": 0.0567
+        }
+      },
+      {
+        "voice": "voice_02.wav",
+        "paragraph": 2,
+        "audio_seconds": 12.48,
+        "seconds": 13.19,
+        "rtf": 1.057,
+        "similarity": 0.7625,
+        "roundtrip": {
+          "wer": 0.1034,
+          "cer": 0.0274,
+          "cer_nospace": 0.0254
+        }
+      },
+      {
+        "voice": "voice_02.wav",
+        "paragraph": 3,
+        "audio_seconds": 12.89,
+        "seconds": 14.01,
+        "rtf": 1.087,
+        "similarity": 0.7258,
+        "roundtrip": {
+          "wer": 0.0833,
+          "cer": 0.0296,
+          "cer_nospace": 0.0268
+        }
+      },
+      {
+        "voice": "voice_03.wav",
+        "paragraph": 1,
+        "audio_seconds": 16.09,
+        "seconds": 17.13,
+        "rtf": 1.064,
+        "similarity": 0.7052,
+        "roundtrip": {
+          "wer": 0.0286,
+          "cer": 0.0057,
+          "cer_nospace": 0.0071
+        }
+      },
+      {
+        "voice": "voice_03.wav",
+        "paragraph": 2,
+        "audio_seconds": 11.79,
+        "seconds": 12.19,
+        "rtf": 1.035,
+        "similarity": 0.7009,
+        "roundtrip": {
+          "wer": 0.0345,
+          "cer": 0.0068,
+          "cer_nospace": 0.0085
+        }
+      },
+      {
+        "voice": "voice_03.wav",
+        "paragraph": 3,
+        "audio_seconds": 11.69,
+        "seconds": 12.15,
+        "rtf": 1.039,
+        "similarity": 0.6472,
+        "roundtrip": {
+          "wer": 0.25,
+          "cer": 0.0593,
+          "cer_nospace": 0.0536
+        }
+      },
+      {
+        "voice": "voice_04.wav",
+        "paragraph": 1,
+        "audio_seconds": 20.69,
+        "seconds": 21.25,
+        "rtf": 1.027,
+        "similarity": 0.6348,
+        "roundtrip": {
+          "wer": 0.1714,
+          "cer": 0.0571,
+          "cer_nospace": 0.0638
+        }
+      },
+      {
+        "voice": "voice_04.wav",
+        "paragraph": 2,
+        "audio_seconds": 15.44,
+        "seconds": 15.63,
+        "rtf": 1.012,
+        "similarity": 0.6482,
+        "roundtrip": {
+          "wer": 0.0345,
+          "cer": 0.0137,
+          "cer_nospace": 0.0169
+        }
+      },
+      {
+        "voice": "voice_04.wav",
+        "paragraph": 3,
+        "audio_seconds": 13.23,
+        "seconds": 14.54,
+        "rtf": 1.1,
+        "similarity": 0.6552,
+        "roundtrip": {
+          "wer": 0.0833,
+          "cer": 0.0296,
+          "cer_nospace": 0.0357
+        }
+      }
+    ],
+    "peak_vram_gb": 0,
+    "device": "cpu",
+    "mean": {
+      "similarity": 0.694,
+      "rtf": 1.074,
+      "roundtrip_wer": 0.1057,
+      "roundtrip_cer": 0.0335
+    },
+    "held_out_mean": {
+      "similarity": 0.7049,
+      "rtf": 1.084,
+      "roundtrip_wer": 0.1361,
+      "roundtrip_cer": 0.04
+    },
+    "held_out_n": 6,
+    "between_real_speakers_similarity": 0.2777
+  },
+  "tts_before_fixes": {
+    "model": "parsvoice-xtts",
+    "rows": [
+      {
+        "voice": "voice_01.wav",
+        "paragraph": 1,
+        "audio_seconds": 19.31,
+        "seconds": 6.31,
+        "rtf": 0.327,
+        "similarity": 0.7556,
+        "roundtrip": {
+          "wer": 0.2286,
+          "cer": 0.1657,
+          "cer_nospace": 0.1702
+        }
+      },
+      {
+        "voice": "voice_01.wav",
+        "paragraph": 2,
+        "audio_seconds": 15.54,
+        "seconds": 4.72,
+        "rtf": 0.303,
+        "similarity": 0.7208,
+        "roundtrip": {
+          "wer": 0.1379,
+          "cer": 0.089,
+          "cer_nospace": 0.0932
+        }
+      },
+      {
+        "voice": "voice_01.wav",
+        "paragraph": 3,
+        "audio_seconds": 15.12,
+        "seconds": 4.6,
+        "rtf": 0.304,
+        "similarity": 0.7427,
+        "roundtrip": {
+          "wer": 0.0833,
+          "cer": 0.0519,
+          "cer_nospace": 0.0625
+        }
+      },
+      {
+        "voice": "voice_02.wav",
+        "paragraph": 1,
+        "audio_seconds": 22.05,
+        "seconds": 6.7,
+        "rtf": 0.304,
+        "similarity": 0.7158,
+        "roundtrip": {
+          "wer": 0.2,
+          "cer": 0.0971,
+          "cer_nospace": 0.0922
+        }
+      },
+      {
+        "voice": "voice_02.wav",
+        "paragraph": 2,
+        "audio_seconds": 15.22,
+        "seconds": 4.62,
+        "rtf": 0.304,
+        "similarity": 0.7238,
+        "roundtrip": {
+          "wer": 0.069,
+          "cer": 0.0342,
+          "cer_nospace": 0.0339
+        }
+      },
+      {
+        "voice": "voice_02.wav",
+        "paragraph": 3,
+        "audio_seconds": 13.23,
+        "seconds": 4.02,
+        "rtf": 0.304,
+        "similarity": 0.7346,
+        "roundtrip": {
+          "wer": 0.2083,
+          "cer": 0.0593,
+          "cer_nospace": 0.0446
+        }
+      },
+      {
+        "voice": "voice_03.wav",
+        "paragraph": 1,
+        "audio_seconds": 25.9,
+        "seconds": 7.83,
+        "rtf": 0.302,
+        "similarity": 0.552,
+        "roundtrip": {
+          "wer": 1.8,
+          "cer": 1.7829,
+          "cer_nospace": 1.9362
+        }
+      },
+      {
+        "voice": "voice_03.wav",
+        "paragraph": 2,
+        "audio_seconds": 19.07,
+        "seconds": 5.77,
+        "rtf": 0.303,
+        "similarity": 0.4596,
+        "roundtrip": {
+          "wer": 0.6552,
+          "cer": 0.3836,
+          "cer_nospace": 0.3983
+        }
+      },
+      {
+        "voice": "voice_03.wav",
+        "paragraph": 3,
+        "audio_seconds": 16.75,
+        "seconds": 5.08,
+        "rtf": 0.303,
+        "similarity": 0.5332,
+        "roundtrip": {
+          "wer": 0.6667,
+          "cer": 0.4741,
+          "cer_nospace": 0.5089
+        }
+      },
+      {
+        "voice": "voice_04.wav",
+        "paragraph": 1,
+        "audio_seconds": 16.98,
+        "seconds": 5.21,
+        "rtf": 0.307,
+        "similarity": 0.6151,
+        "roundtrip": {
+          "wer": 0.2,
+          "cer": 0.0971,
+          "cer_nospace": 0.0922
+        }
+      },
+      {
+        "voice": "voice_04.wav",
+        "paragraph": 2,
+        "audio_seconds": 15.08,
+        "seconds": 5.27,
+        "rtf": 0.35,
+        "similarity": 0.6476,
+        "roundtrip": {
+          "wer": 0.2414,
+          "cer": 0.1438,
+          "cer_nospace": 0.1441
+        }
+      },
+      {
+        "voice": "voice_04.wav",
+        "paragraph": 3,
+        "audio_seconds": 14.94,
+        "seconds": 5.74,
+        "rtf": 0.384,
+        "similarity": 0.5823,
+        "roundtrip": {
+          "wer": 0.25,
+          "cer": 0.1037,
+          "cer_nospace": 0.0982
+        }
+      }
+    ],
+    "peak_vram_gb": 3.67,
+    "mean": {
+      "similarity": 0.6486,
+      "rtf": 0.316,
+      "roundtrip_wer": 0.395,
+      "roundtrip_cer": 0.2902
+    },
+    "between_real_speakers_similarity": 0.2777
+  },
+  "tts_retake": {
+    "model": "parsvoice-xtts",
+    "takes": 3,
+    "rows": [
+      {
+        "voice": "voice_01.wav",
+        "paragraph": 1,
+        "audio_seconds": 15.22,
+        "seconds": 65.11,
+        "rtf": 4.278,
+        "similarity": 0.6972,
+        "roundtrip": {
+          "wer": 0.1429,
+          "cer": 0.0514,
+          "cer_nospace": 0.0496
+        }
+      },
+      {
+        "voice": "voice_01.wav",
+        "paragraph": 2,
+        "audio_seconds": 13.31,
+        "seconds": 35.44,
+        "rtf": 2.662,
+        "similarity": 0.6927,
+        "roundtrip": {
+          "wer": 0.1034,
+          "cer": 0.0205,
+          "cer_nospace": 0.0169
+        }
+      },
+      {
+        "voice": "voice_01.wav",
+        "paragraph": 3,
+        "audio_seconds": 14.65,
+        "seconds": 65.12,
+        "rtf": 4.443,
+        "similarity": 0.6928,
+        "roundtrip": {
+          "wer": 0.0417,
+          "cer": 0.0296,
+          "cer_nospace": 0.0357
+        }
+      },
+      {
+        "voice": "voice_02.wav",
+        "paragraph": 1,
+        "audio_seconds": 16.01,
+        "seconds": 44.4,
+        "rtf": 2.773,
+        "similarity": 0.7348,
+        "roundtrip": {
+          "wer": 0.1714,
+          "cer": 0.0514,
+          "cer_nospace": 0.0426
+        }
+      },
+      {
+        "voice": "voice_02.wav",
+        "paragraph": 2,
+        "audio_seconds": 13.31,
+        "seconds": 46.69,
+        "rtf": 3.508,
+        "similarity": 0.7539,
+        "roundtrip": {
+          "wer": 0.0345,
+          "cer": 0.0137,
+          "cer_nospace": 0.0169
+        }
+      },
+      {
+        "voice": "voice_02.wav",
+        "paragraph": 3,
+        "audio_seconds": 13.49,
+        "seconds": 68.51,
+        "rtf": 5.078,
+        "similarity": 0.7434,
+        "roundtrip": {
+          "wer": 0.2083,
+          "cer": 0.0815,
+          "cer_nospace": 0.0714
+        }
+      },
+      {
+        "voice": "voice_03.wav",
+        "paragraph": 1,
+        "audio_seconds": 14.61,
+        "seconds": 90.71,
+        "rtf": 6.208,
+        "similarity": 0.7098,
+        "roundtrip": {
+          "wer": 0.1143,
+          "cer": 0.0343,
+          "cer_nospace": 0.0284
+        }
+      },
+      {
+        "voice": "voice_03.wav",
+        "paragraph": 2,
+        "audio_seconds": 11.45,
+        "seconds": 24.0,
+        "rtf": 2.095,
+        "similarity": 0.6859,
+        "roundtrip": {
+          "wer": 0.1034,
+          "cer": 0.0205,
+          "cer_nospace": 0.0254
+        }
+      },
+      {
+        "voice": "voice_03.wav",
+        "paragraph": 3,
+        "audio_seconds": 12.52,
+        "seconds": 46.75,
+        "rtf": 3.734,
+        "similarity": 0.6828,
+        "roundtrip": {
+          "wer": 0.25,
+          "cer": 0.1481,
+          "cer_nospace": 0.1429
+        }
+      },
+      {
+        "voice": "voice_04.wav",
+        "paragraph": 1,
+        "audio_seconds": 15.59,
+        "seconds": 86.04,
+        "rtf": 5.518,
+        "similarity": 0.6002,
+        "roundtrip": {
+          "wer": 0.1143,
+          "cer": 0.0457,
+          "cer_nospace": 0.0496
+        }
+      },
+      {
+        "voice": "voice_04.wav",
+        "paragraph": 2,
+        "audio_seconds": 16.05,
+        "seconds": 49.78,
+        "rtf": 3.101,
+        "similarity": 0.6509,
+        "roundtrip": {
+          "wer": 0.069,
+          "cer": 0.0274,
+          "cer_nospace": 0.0339
+        }
+      },
+      {
+        "voice": "voice_04.wav",
+        "paragraph": 3,
+        "audio_seconds": 14.85,
+        "seconds": 42.62,
+        "rtf": 2.871,
+        "similarity": 0.6774,
+        "roundtrip": {
+          "wer": 0.1667,
+          "cer": 0.037,
+          "cer_nospace": 0.0446
+        }
+      }
+    ],
+    "peak_vram_gb": 0,
+    "device": "cpu",
+    "mean": {
+      "similarity": 0.6935,
+      "rtf": 3.856,
+      "roundtrip_wer": 0.1267,
+      "roundtrip_cer": 0.0468
+    },
+    "held_out_mean": {
+      "similarity": 0.7142,
+      "rtf": 3.735,
+      "roundtrip_wer": 0.1454,
+      "roundtrip_cer": 0.0602
+    },
+    "held_out_n": 6,
+    "between_real_speakers_similarity": 0.2777
+  }
+}

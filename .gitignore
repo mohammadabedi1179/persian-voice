@@ -1,0 +1,22 @@
+# Private: real call recordings and their transcripts
+samples-real/
+samples-real-results/
+samples-real.rar
+holding_calls_song/
+results/real.log
+results/long_*
+
+# Downloaded or generated
+.venv/
+__pycache__/
+*.pyc
+models/
+data/
+*.rar
+setup.log
+
+# LaTeX build files
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc

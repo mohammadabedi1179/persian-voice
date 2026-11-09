@@ -1,0 +1,8 @@
+fleurs.base-turbo.tsv
+  zwnj→space   WER 18.84%  S=1113 D=167 I=178
+  zwnj→joined  WER 27.94%  S=1374 D=61 I=584
+  affix-canonical WER 17.96%  S=1046 D=108 I=159
+fleurs.fa-turbo.tsv
+  zwnj→space   WER 13.98%  S=657 D=291 I=134
+  zwnj→joined  WER 16.65%  S=716 D=70 I=417
+  affix-canonical WER 8.88%  S=440 D=71 I=138
